@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,    initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header><h1>HTML 5 Technical Document</h1></header>
+      <ul class="nav_list">
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li><a class="nav-link"href="#HTML_Boilerplate">HTML Boilerplate</a></li>
+        <li><a  class="nav-link" href="#the_paragraph_element">The Paragraph Element</a></li>
+        <li><a class="nav-link" href="#the_image_element">The Image Element</a></li>
+        <li><a class="nav-link" href="#the_anchor_element">The Anchor Element</a></li>
+        <li><a  class="nav-link"href="#reference">Reference</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>HTML, or HyperText Markup Language, is the core language for creating and structuring web content. It uses tags and attributes to define elements like headings, paragraphs, links, and images. As the backbone of web development, HTML provides the framework for browsers to display content. Understanding HTML is essential for building or maintaining websites, as it underpins technologies like CSS and JavaScript.</p>
+      <ul>
+        <li><strong>Creating Web Pages</strong>: HTML is used to structure and format the content of web pages, including text, images, links, and multimedia elements.</li>
+        <li><strong>Embedding Media</strong>: HTML allows the embedding of various media types such as videos, audio files, and interactive content, enhancing the user experience on websites.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="HTML_Boilerplate">
+      <header>HTML Boilerplate</header>
+      <p>The HTML boilerplate is a basic template that serves as the starting point for any HTML document. It includes essential elements such as the <!DOCTYPE html> declaration, <html>, <head>, and <body> tags. The boilerplate ensures that the document is properly structured and compatible with web standards, providing a solid foundation for further development. By using a boilerplate, developers can quickly set up a new project with all the necessary components in place.</p>
+      <p>When using an editor such as <a class="ext_link" href="https://code.visualstudio.com/">VS Code</a> you can put in <code>!!</code> then press <code>TAB</code> this will automatically generate a useable HTML Boierplate.</p>
+      <ul>
+        <li>First element in a boiler plate is <code>HTML lang=en</code> container.</li>
+        <li>Within the <code>HTML</code> tags a <code>Head</code> container with opening and closing tags.</li>
+        <li>Within the <code>Head</code> container the following will be added</li>
+        <ul>
+          <li>One of more <code>Meta</code> elements.</li>
+          <li>One <code>Title</code> element.</li>
+          <li>One or more <code>Link</code> elements to link you CSS or external stylesheets.</li>
+        </ul>
+        <li>The last thing to be added under the <code>Head</code> element will be a <code>Body</code> element with an opening and closing tag.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="the_paragraph_element">
+      <header>The Paragraph Element</header>
+      <p>The <code>p</code> element in HTML is used to define paragraphs of text. It is a block-level element, meaning it starts on a new line and takes up the full width available. Paragraphs are essential for organizing content into readable sections, making it easier for users to understand and navigate the text. The <code>p</code> element can contain text, inline elements, and other HTML tags, providing flexibility in formatting and styling.
+</p>
+      <p></p>   
+    </section>
+    <section class="main-section" id="the_image_element">
+      <header>The Image Element</header>
+      <p>The <code>img</code> element in HTML is used to embed images into a webpage. It is an inline element that requires the src attribute to specify the path to the image file, and the alt attribute to provide alternative text for accessibility. The <code>img</code> element enhances the visual appeal of a webpage and can be used to display logos, photos, illustrations, and other graphical content. Proper use of the alt attribute ensures that images are accessible to users with screen readers and improves SEO.</p>
+      <p></p>
+      <p></p>
+      <ul>
+        <li>Within the <code>img</code> an <code>src=""</code> property is added, to which you need to add the URL of a web based image or the project file path for the locally stored image file.</li>
+        <li>The <code>alt=""</code> property is good practice to add with a description of what the image is incases of the iimage not loading.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="the_anchor_element">
+      <header>The Anchor Element</header>
+      <p>The <code>a</code> element in HTML, also known as the anchor tag, is used to create hyperlinks that connect one webpage to another. It requires the href attribute to specify the destination URL. The anchor tag can enclose text, images, or other HTML elements, making them clickable. Hyperlinks are fundamental to web navigation, allowing users to move seamlessly between different pages and resources on the internet.</p>
+      <p></p>
+      <ul>
+        <li>Within the <code>a</code> element you will need to add the <code>href=""</code> property, and then specify the object you with to navigate to.</li>
+      </ul>
+      <p>Further Anchor Element Properties</p>
+      <ul>
+        <li>Rel: The rel attribute in an anchor (<code>a</code>) element specifies the relationship between the current document and the linked document, enhancing security, privacy, and SEO.</li>
+        <li>Target: you can set this property to <code>target="_blank"</code> to open the link in a new tab.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="reference">
+      <header>Reference</header>
+      <p>All information was references from <a class="ext_link" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></p>
+      <p></p>
+    </section>
+  </main>
+</html>
